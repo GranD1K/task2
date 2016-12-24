@@ -16,6 +16,8 @@ class ChildClass : public Base
     public :
     B() { cout << "Construct Child object\n";}
     ~B() { cout << "Destruct Child object\n";}
+    
+    void func() { cout << "Function func() of class Child :)\n"; }
 };
 
 int main(int argc, char *argv[])
