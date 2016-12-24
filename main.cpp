@@ -17,8 +17,14 @@ class ChildClass : public Base
     B() { cout << "Construct Child object\n";}
     ~B() { cout << "Destruct Child object\n";}
     
-    void func() { cout << "Function func() of class Child :)\n"; }
+    void func() { cout << "Function func() of class Child :)\n"; }    
 };
+
+void Function(const Base &obj)
+{
+    cout << "*More  Fun with function:) for object obj" << endl;
+    obj.func();
+}
 
 int main(int argc, char *argv[])
 {    
