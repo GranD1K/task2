@@ -8,7 +8,7 @@ public:
     Base() { cout << "Construct Base object\n"; }
     ~Base() { cout << "Destruct Base object\n"; }
     
-    void func() { cout << "Function func() of class Base\n"; }
+    void func() { cout << "Function func()\ Create Maksim Leontev group 321 knit 2016 December\n"; }
 };
 
 class ChildClass : public Base
