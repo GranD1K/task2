@@ -34,10 +34,10 @@ int main(int argc, char *argv[])
     cout << "* Create Object child" << endl;
     Child child;
 
-    cout << "* Call method func() for object base" << endl;
+    cout << "* Call method func() for object base!" << endl;
     Function(base);
 
-    cout << "* Call method func() for object child" << endl;
+    cout << "* Call method func() for object child!" << endl;
     Function(child);
 
     return 0;
