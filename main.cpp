@@ -8,7 +8,7 @@ public:
     Base() { cout << "Construct Base object\n"; }
     ~Base() { cout << "Destruct Base object\n"; }
     
-    void func() { cout << "Function func()\ Create Maksim Leontev group 321 knit 2016 December\n"; }
+    virtual void func() { cout << "Function func()\ Create Maksim Leontev group 321 knit 2016 December\n"; }
 };
 
 class ChildClass : public Base
@@ -39,6 +39,8 @@ int main(int argc, char *argv[])
     
     cout << "* Call method func() for object child" << endl;
     child.func();
+    
+    Function(child);
     
     return 0;
 }
